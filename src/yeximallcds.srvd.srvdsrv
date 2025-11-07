@@ -1,0 +1,26 @@
+@EndUserText.label: 'EXIM ALL CDS'
+define service YEXIMALLCDS {
+  expose ZEXIM_ALL;
+  expose ZINCOTERMS_F4;
+  expose ZPAYMENT_TERMS_F4;
+  expose ZSUPPLIRF4;
+  expose I_CountryText            as CountryRegF4;
+  expose ZPURCHASE_ORDER_F4       as PurchaseOrderF4;
+  expose ZPO_ITEM_DATA            as ItemData;
+  expose zexim_BILL_OF_ENTRY      as ChangeEximBillOfEntryImport;
+  expose ZBILL_OF_ENTRY_F4        as billofentryf4;
+  expose ZBILLOF_ATCH_UPL_CDS     as BillOfAtchUpload;
+  expose I_Plant                  as PlantF4;
+  expose I_CompanyCode            as CompanyCodeF4;
+  expose ZIM_MAINTAIN_LIC_CDS     as ZIMMAINTAINLICCDS;
+  expose ZLICENSE_NO_F4           as ZLICENSENOF4;
+  expose ZLICENSE_NO_F4a          as ZLICENSENOF4a;
+  expose zmatcode_f4              as zmatcode_f4;
+  expose zmaint_lic_atch_CDS      as Mainatainlicatchupload;
+  expose ZEXIM_MAT_GROUP_CDS      as EXIM_MAT_GROUP_CDS;
+  expose ZEXIM_MAT_IMPORT_GROUP_2 as YMATIMPORTGROUP_F4;
+  expose YMATGRP_F4               as YMATGRP_F4;
+  expose zsd_uom                  as zsd_uom;
+  expose zcdsexim_sion_f4         as zcdsexim_sion_f4;
+  expose zcdsexim_sion            as zcdsexim_sion;
+}

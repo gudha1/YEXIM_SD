@@ -1,0 +1,64 @@
+managed implementation in class zbp_consignedata_pr2 unique;
+strict ( 2 );
+
+define behavior for YCONSIGNEDATA_PR1 //alias <alias_name>
+persistent table yconsignedata_pr
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  mapping for YCONSIGNEDATA_PR
+  {
+     Docno     = docno;
+     Doctype = doctype;
+    Billtobuyrname = billtobuyrname;
+    Billtostreet1 = billtostreet1;
+    Billtostreet2 = billtostreet2;
+    Billtostreet3 = billtostreet3;
+    Billtocity = billtocity;
+    Billtocountry = billtocountry;
+    Constoname = constoname;
+    Constostreet1 = constostreet1;
+    Constostreet2 = constostreet2;
+    Constostreet3 = constostreet3;
+    Constocity = constocity;
+    Constocountry = constocountry;
+    Notifyname = notifyname;
+    Notifystreet1 = notifystreet1;
+    Notifystreet2 = notifystreet2;
+    Notifystreet3 = notifystreet3;
+    Notifycity = notifycity;
+    Notifycountry = notifycountry;
+    Conslctoname = conslctoname;
+    Conslctostreet1 = conslctostreet1;
+    Conslctostreet2 = conslctostreet2;
+    Conslctostreet3 = conslctostreet3;
+    Conslctocity = conslctocity;
+    Conslctocountry = conslctocountry;
+    Notify2name = notify2name;
+    Notify2street1 = notify2street1;
+    Notify2street2 = notify2street2;
+    Notify2street3 = notify2street3;
+    Notify2city = notify2city;
+    Notify2country = notify2country;
+    Notify3name = notify3name;
+    Notify3street1 = notify3street1;
+    Notify3street2 = notify3street2;
+    Notify3street3 = notify3street3;
+    Notify3city = notify3city;
+    Notify3country = notify3country;
+    Tobecontinue = tobecontinue;
+    Taxid        = Taxid;
+    Secondbuyer = secondbuyer;
+    Secondbuyername = secondbuyername;
+    Secondstreet1 = secondstreet1;
+    Secondstreet2 = secondstreet2;
+    Secondstreet3 = secondstreet3;
+    Secondcity = secondcity;
+    Secondcountry = secondcountry;
+    Consigneebuyer = consigneebuyer;
+  }
+}

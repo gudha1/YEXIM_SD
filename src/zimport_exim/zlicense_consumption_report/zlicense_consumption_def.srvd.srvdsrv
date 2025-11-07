@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for License Consumption Report'
+define service ZLICENSE_CONSUMPTION_DEF {
+  expose ZLICENSE_CONSUMPTION_CDS;
+}

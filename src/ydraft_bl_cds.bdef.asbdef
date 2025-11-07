@@ -1,0 +1,36 @@
+managed implementation in class zbp_draft_bl_cds unique;
+strict ( 2 );
+
+define behavior for ydraft_bl_cds //alias <alias_name>
+persistent table ydraft_bl
+lock master
+authorization master (  instance )
+//etag master <field_name>
+{
+
+
+  create;
+  update ;
+  delete;
+  mapping for ydraft_bl
+ {
+ Docno      =       docno;
+ Doctype   =        doctype;
+ litem      =         Litem;
+ material   =         Material;
+ BillingDocumentItemText      =         Mdesp;
+// lot        =         Lot;
+// fromto     =         Fromto;
+// taxid      =         Taxid;
+// details    =         Details;
+// deliveryno =         Deliveryno;
+// containerno =        Containerno;
+ Itemnetweight   =        ItemNetwt;
+ Itemgrossweight =        ItemGrossWt;
+// FullMaterialDescription = FullMaterialDescription;
+ConsumptionTaxCtrlCode = ConsumptionTaxCtrlCode;
+BillingQuantity = BillingQuantity;
+ItemWeightUnit = ItemWeightUnit;
+Customerhsncode = customerhsncode;
+ }
+}

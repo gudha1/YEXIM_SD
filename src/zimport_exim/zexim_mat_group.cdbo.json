@@ -1,0 +1,42 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Import Exim Mat Group",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "TABL",
+    "objectName": "ZEXIM_MAT_GROUP"
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "nature": "general"
+    },
+    {
+      "name": "MATGRPCODE",
+      "nature": "general"
+    },
+    {
+      "name": "TYPE",
+      "nature": "general"
+    },
+    {
+      "name": "MATCODE",
+      "nature": "general"
+    },
+    {
+      "name": "DESCRIPTION1",
+      "nature": "general"
+    },
+    {
+      "name": "DESCRIPTION",
+      "nature": "general"
+    },
+    {
+      "name": "UOM",
+      "nature": "general"
+    }
+  ]
+}

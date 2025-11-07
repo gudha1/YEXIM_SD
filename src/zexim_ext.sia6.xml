@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZEXIM_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>APP FOR EXIM SD</DESCRIPTION>
+     <RESPONSIBLE>CB9980000005</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>APU</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>YEXIM_SD</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZEXIM_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZEXPORTIMPORT1_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZEXIM_HTTP</REL_NAME>
+      <REL_TYPE>HTTP</REL_TYPE>
+      <APP_ID>ZEXIM_EXT</APP_ID>
+      <SRVC_NAME>EC463130ECD823B4DE37DC6823AB6D</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Handler class for http ZCL_EXIM_HTTP</TEXT>
+      <TYPE_TEXT>HTTP Service</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>Z_EXIM_HTTP</REL_NAME>
+      <REL_TYPE>HTTP</REL_TYPE>
+      <APP_ID>ZEXIM_EXT</APP_ID>
+      <SRVC_NAME>09B64971DB2DC6747BA9E971700979</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Handler class for http ZCL_EXIM_HTTP</TEXT>
+      <TYPE_TEXT>HTTP Service</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>YEXIMALLCDS                        0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZEXIM_EXT</APP_ID>
+      <SRVC_NAME>C4B7BD8F666C3F5E65C569E11E20E4</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZEXPORTIMPORT1_UI5R</UIAD_SRC>
+      <TEXT>Exim ALL CDS view one Api</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZEXIM_V2API                        0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZEXIM_EXT</APP_ID>
+      <SRVC_NAME>38954E49F3B09AE26A1A111DDC75CD</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZEXPORTIMPORT1_UI5R</UIAD_SRC>
+      <TEXT>ZEXIM_V2API</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

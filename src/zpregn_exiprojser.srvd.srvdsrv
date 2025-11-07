@@ -1,0 +1,19 @@
+@EndUserText.label: 'ZPREGN_EXIPROJ service defination'
+define service ZPREGN_EXIPROJser {
+  expose ZPREGN_EXIPROJ      as generaltab_;
+  expose Ybilling_datta      as YEINVOICE_CDS;
+  expose YCONSIGNEDATA_PR1   as YCONSIGNEDATA;
+  expose YEXIM_CALCULATPROJ  as Zcalculation;
+  expose ZFREGHTCHARGES_PR1  as ZFREGHTCHARGES;
+  expose ydraft_bl_cds       as Draft_Bl;
+  expose zsd_shipment_detail as Shipmentdetail;
+  expose zsd_lc_report       as lcreport;
+  expose zsd_shipingsave_cds as shipmentsave_data;
+  expose zsd_lc_save_cds     as lcsave_Data;
+  expose YMATGRP_F4          as YMATGRP_F4;
+  expose zsd_uom             as zsd_uom;
+  expose ZINVOICE_F4         as ZINVOICE_F4;
+  expose ZBAGS_ITEM          as ZBAGS_ITEM;
+  expose ZJUMBO_BAG          as ZJUMBO_BAG;
+  expose ZADVANCE_DGFT_CDS   as ZADVANCE_DGFT_CDS;
+}

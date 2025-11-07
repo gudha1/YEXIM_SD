@@ -1,0 +1,72 @@
+managed implementation in class zbp_exim_calculatcds unique;
+strict ( 2 );
+
+define behavior for YEXIM_CALCULATCDS //alias <alias_name>
+persistent table YEXIM_CALCULAT
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  mapping for YEXIM_CALCULAT {
+Docno        =    Docno;
+Doctype    =  doctype ;
+Totalqty      = Totalqty;
+Totalnetqty  = Totalnetqty;
+Totalgrosswt  = Totalgrosswt;
+Totalpackages  = Totalpackages;
+Typeofpackages  = Typeofpackages;
+Doccurrency  = Doccurrency;
+Exchangerate  = Exchangerate;
+Commission  = Commission;
+Insurance  = Insurance;
+Insurancepre = Insurancepre;
+Freight  = Freight;
+Oceanfreight  = Oceanfreight;
+Dutycalculation  = Dutycalculation;
+Assessablevalueinrs  =  assessablevalueinrs;
+Gst  = gst;
+Invoiceamount  = Invoiceamount;
+Addamt  = Addamt;
+Lessamt  = Lessamt;
+Grandtotalamount  = Grandtotalamount;
+Amountinwords  = Amountinwords;
+Lcno  = Lcno;
+Lcdate  = Lcdate;
+Issueingbank  = Issueingbank;
+Bank  = Bank;
+Adcodebank  = Adcodebank;
+Buyername  = Buyername;
+Street1  = Street1;
+Street2  = Street2;
+Street3  = Street3;
+Stufffileno  = Stufffileno;
+Stufffilpermdate  = Stufffilpermdate;
+Exportunder  = Exportunder;
+Advancelicense  = Advancelicense;
+Frightchargetype = Frightchargetype;
+Buyerinsname = Buyerinsname;
+Buyerinsaddress1 = Buyerinsaddress1;
+Buyerinsaddress2 = Buyerinsaddress2;
+Buyerinsaddress3 = Buyerinsaddress3;
+Buyerinsaddress4 = Buyerinsaddress4;
+Covernoteno = Covernoteno;
+Covernotedate = Covernotedate;
+Etddate = Etddate;
+Etadate = Etadate;
+Foreignbank = Foreignbank;
+Draweesiftcode = Draweesiftcode;
+Countryfinaldest = countryfinaldest;
+Shippingadvicedate = Shippingadvicedate;
+Boeheader = Boeheader;
+Boeitem = Boeitem;
+Boebanksname = Boebanksname;
+Shippingline = Shippingline;
+Lcdate1 = Lcdate1;
+Documentthrough = Documentthrough;
+
+
+  }
+}

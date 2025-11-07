@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for License Master Report'
+define service ZLICENSE_MASTER_REPORT_DEF {
+  expose ZLICENSE_MASTER_CDS;
+}

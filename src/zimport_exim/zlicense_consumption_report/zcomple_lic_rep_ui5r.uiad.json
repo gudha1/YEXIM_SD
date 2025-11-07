@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "License Consumption Report"
+  },
+  "ui5AppDetails": {
+    "appId": "zlicenseconsumptionreport"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_46D3FEF2C0128A838C68FA0B167C323A62D1A0B4_TM",
+    "semanticObject": "zlicense_cons_rep3",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_46D3FEF2C0128A838C68FA0B167C323A62D1A0B4_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "License Consumption Report",
+        "subtitle": "SD"
+      }
+    }
+  ]
+}

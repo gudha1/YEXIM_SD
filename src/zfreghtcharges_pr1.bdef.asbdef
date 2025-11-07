@@ -1,0 +1,40 @@
+managed implementation in class zbp_freghtcharges_pr1 unique;
+strict ( 2 );
+
+define behavior for ZFREGHTCHARGES_PR1 //alias <alias_name>
+persistent table zfreghtcharges
+lock master
+authorization master ( global )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  mapping for zfreghtcharges
+    {
+      Agencycharge       = agencycharge;
+      Doccharge          = doccharge;
+      Docno              = docno;
+      Emptycontainer     = emptycontainer;
+      Frecontainerno     = frecontainerno;
+      Forwarder          = forwarder;
+      Inlandfreight      = inlandfreight;
+      Invoicedate        = invoicedate;
+      Oceanfreight       = oceanfreight;
+      Oceanfreightbillno = oceanfreightbillno;
+      Othshiplinebillno  = othshiplinebillno;
+      Traspoerterbillno  = traspoerterbillno;
+      Agencybillno       = agencybillno;
+      Bltellexbillno     = bltellexbillno;
+      Conecorebillno     = conecorebillno;
+      Bltellexbillamt    = bltellexbillamt;
+      Conecoreamt        = conecoreamt;
+      Thc                = thc;
+      Transportername    = transportername;
+      Portofdischarge    = portofdischarge;
+      Portofloading      = portofloading;
+      Shippingline       = shippingline;
+      Deliveryno         = deliveryno;
+      Totalcharge        = totalcharge;
+    }
+ }

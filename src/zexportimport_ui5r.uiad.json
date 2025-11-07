@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "EXIM DASHBOARD"
+  },
+  "ui5AppDetails": {
+    "appId": "zexportimport"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_574263047EB00E22B618145AC7ED9BD2B193672C_TM",
+    "semanticObject": "zexim_4",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_574263047EB00E22B618145AC7ED9BD2B193672C_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "EXIM DASHBOARD",
+        "subtitle": "EXIM-EXPORT AND IMPORT"
+      }
+    }
+  ]
+}
